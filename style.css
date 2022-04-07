@@ -1,0 +1,38 @@
+:root {
+    background-color: rgb(61, 62, 63);
+}
+
+#test {
+    text-align: center;
+    color: aqua;
+}
+
+#innerdiv {
+    text-align: center;
+    color: aqua;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+          h1 {
+              color: rgb(238, 226, 64);
+              display: flex;
+              justify-content: center;
+          }
+    
+          #mybutton {
+              display: block;
+              margin: 0 auto;
+          }
+    
+          #innerdiv {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+          }
