@@ -28,11 +28,11 @@ console.log('https://jikaish.tk')
     //  x.style.display = "none";
    // }
     document.getElementById("innerdiv").innerHTML = "I and yes an other boring test i test it for learn JS (aka JavaScript) " + 10 * 1
-   if(document.getElementById("testing").innerHTML === "Show me") {
-    document.getElementById("testing").innerHTML = "Hide me";
+   if(document.getElementById("testing").innerHTML === "Return me") {
+    document.getElementById("testing").innerHTML = "Change me";
    }
    else {
-    document.getElementById("testing").innerHTML = "Show me"
+    document.getElementById("testing").innerHTML = "Return me"
     document.getElementById("innerdiv").innerHTML = "And boom the text changed " + 10 * 2
    }
   }
