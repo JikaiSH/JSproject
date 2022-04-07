@@ -1,13 +1,13 @@
 //Can't change information
-const username = "JikaiSH" //can't change
-const country = "France"
-const gender = "boy" //can't change
-const sexuality = "Gay" //can't change
-const taken = "Taken <3" //can('t) change
+const username = "Your name" //can't change
+const country = "Your Country"
+const gender = "Your gender" //can't change
+const sexuality = "Your sexuality" //can't change
+const taken = "Are you in couple ?" //can('t) change
 
 //Can change information
-let age = "14" //can change
-let language = "French, " + "English"
+let age = "Your age" //can change
+let language = "Language you speak " // + "Second language"
 
 console.log('%cHi! i\'\am ' + username,"color:red;font-size: 50px;")
 console.log('Im frome ' + country)
@@ -16,7 +16,7 @@ console.log('I speak ' + language)
 console.log('Im a ' + gender)
 console.log('Im ' + sexuality)
 console.log('Im ' + taken)
-console.log('https://jikaish.tk')
+console.log('https://yourwebsite.here')
 
 
   function showtext() {
