@@ -18,24 +18,30 @@ console.log('Im ' + sexuality)
 console.log('Im ' + taken)
 console.log('https://yourwebsite.here')
 
-
   function showtext() {
     var x = document.getElementById("innerdiv");
+    const dStyle = document.querySelector('style');
     //for only hide text
    // if (x.style.display === "none") {
      // x.style.display = "block";
     //} else {
     //  x.style.display = "none";
    // }
-    document.getElementById("innerdiv").innerHTML = "I and yes an other boring test i test it for learn JS (aka JavaScript) " + 10 * 1
-    document.getElementById("title").innerHTML = `<img src="https:\/\/external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Fthumbs%2F2x%2Fjavascript-logo.png&f=1&nofb=1" width="70px" height="50px"> Test !`
-   if(document.getElementById("testing").innerHTML === "Return me") {
-    document.getElementById("testing").innerHTML = "Change me";
-    document.getElementById("title").innerHTML = `<img src="https:\/\/external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Fthumbs%2F2x%2Fjavascript-logo.png&f=1&nofb=1" width="70px" height="50px"> Test !`
+    document.getElementById("innerdiv").innerHTML = "There is" + 4 + "bot online at this time"
+    document.getElementById("title").innerHTML = `<img src="https:\/\/external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Fthumbs%2F2x%2Fjavascript-logo.png&f=1&nofb=1" width="70px" height="50px"> JS Manager (beta) !`
+
+   if(document.getElementById("testing").innerHTML === "Launch Server") {
+    document.getElementById("testing").innerHTML = "Stop Server";
+    document.getElementById("innerdiv").innerHTML = "There is " + 4 + " bots online at this time"
+    dStyle.innerHTML = '#test {color: rgb(21, 255, 0);}';
+    document.getElementById("test").innerHTML = "System Online";
+    document.getElementById("title").innerHTML = `<img src="https:\/\/external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Fthumbs%2F2x%2Fjavascript-logo.png&f=1&nofb=1" width="70px" height="50px"> JS Manager (beta on)`
    }
    else {
-    document.getElementById("title").innerHTML = `<img src="https:\/\/external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Fthumbs%2F2x%2Fjavascript-logo.png&f=1&nofb=1" width="70px" height="50px"> Testing !`
-    document.getElementById("innerdiv").innerHTML = "And boom the text changed " + 10 * 2
-    document.getElementById("testing").innerHTML = "Return me"
+    document.getElementById("title").innerHTML = `<img src="https:\/\/external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Fthumbs%2F2x%2Fjavascript-logo.png&f=1&nofb=1" width="70px" height="50px"> JS Manager (beta off)`
+    dStyle.innerHTML = '#test {color: red;}';
+    document.getElementById("test").innerHTML = "System Offline";
+    document.getElementById("innerdiv").innerHTML = "There is " + 4 + " bots offline at this time"
+    document.getElementById("testing").innerHTML = "Launch Server"
    }
   }
