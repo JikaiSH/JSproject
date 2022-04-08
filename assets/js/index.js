@@ -26,6 +26,7 @@
     document.getElementById("testing").innerHTML = "Launch Server"
    }
   }
+  console.log("JavaScript work - " + "b0.1248")
 
   //Can't change information
 //const username = "Your name" //can't change
